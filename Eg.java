@@ -3,7 +3,7 @@ import java.io.*;
 import java.sql.*;
 import java.util.*;
 
-public class Eg {
+public class Attendance {
 	static ArrayList<String> ar;
 	public static void Getfrom_database() throws Exception
 	{
@@ -58,6 +58,7 @@ public class Eg {
 				System.out.print(rs.getString("name")+" ");
 				System.out.print(rs.getString("address")+" ");
 				System.out.print(rs.getString("phno")+" ");
+			//	System.out.println(SendSms.sendSms("919791208115"));
 				System.out.println();
 				
 			}
