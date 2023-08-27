@@ -58,7 +58,7 @@ public class Attendance {
 				System.out.print(rs.getString("name")+" ");
 				System.out.print(rs.getString("address")+" ");
 				System.out.print(rs.getString("phno")+" ");
-			//	System.out.println(SendSms.sendSms("919791208115"));
+			//	System.out.println(SendSms.sendSms("9123456789"));
 				System.out.println();
 				
 			}
